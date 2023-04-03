@@ -1,0 +1,10 @@
+package test.reqres.desafioqa;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "src/test/resources/features/validar-get-users-id-reqres.feature")
+public class ValidarGetUserIdReqresTest {
+}
